@@ -1,28 +1,11 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <nav className="bg-sky-50 p-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <Image src="/logo.png" alt="Bunda Pengharapan Logo" width={60} height={60} />
-          <div className="space-x-4">
-            <Link href="#" className="text-sky-800 hover:text-sky-600">Home</Link>
-            <Link href="#" className="text-sky-800 hover:text-sky-600">Jadwal</Link>
-            <Link href="#" className="text-sky-800 hover:text-sky-600">Tentang Kami</Link>
-            <Link href="#" className="text-sky-800 hover:text-sky-600">Hubungi</Link>
-          </div>
-        </div>
-      </nav>
-
-      <header className="bg-sky-100 py-20">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold text-sky-900 mb-4">Bunda Pengharapan</h1>
-          <p className="text-xl text-sky-700">&quot;Kasih yang Menyembuhkan&quot;</p>
-        </div>
-      </header>
-
+      <Navbar/>
+      <Landing/>
       <section className="py-16">
         <div className="container mx-auto">
           <h2 className="text-3xl font-semibold text-sky-900 mb-8 text-center">Pelayanan</h2>
