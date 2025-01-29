@@ -3,7 +3,7 @@ import Landing from "./components/Landing";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen">
       <Navbar/>
       <Landing/>
       <section className="py-16">
