@@ -2,12 +2,14 @@
 
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
+import Image from "next/image";
 
 export default function Home() {
+  const currentYear = new Date().getFullYear();
   return (
-    <main className="min-h-screen">
-      <Navbar/>
-      <Landing/>
+    <main className="min-h-screen max-w-7xl mx-auto bg-gray-50 rounded-3xl m-2">
+      <Navbar />
+      <Landing />
       <section className="py-16">
         <div className="container mx-auto">
           <h2 className="text-3xl font-semibold text-sky-900 mb-8 text-center">Pelayanan</h2>
@@ -23,8 +25,11 @@ export default function Home() {
       </section>
 
       <footer className="bg-sky-50 py-8">
-        <div className="container mx-auto text-center text-sky-800">
-          <p>&copy; RSBP 2024. All rights reserved.</p>
+        <div className="container mx-auto text-center text-gray-600 flex flex-col items-center">
+          <p>&copy; RSBP 2001 - {currentYear}. All rights reserved.</p>
+          <a href="https://arwildo.com" target="_blank" rel="noopener dofollow">
+            <Image src="/images/arwildo-software-cr.svg" alt="Arwildo Software" width={90} height={90} className="mt-2"/>
+          </a>
         </div>
       </footer>
     </main>

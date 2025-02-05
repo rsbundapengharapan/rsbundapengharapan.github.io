@@ -28,9 +28,9 @@ export default function Landing() {
                   </div>
                 </div>
 
-                <div className="flex-1 md:w-1/5 bg-white rounded-3xl">
-                  <Image src="/images/petugas_lab.jpg" alt="Pemeriksaan MCU Lab Radiologi Merauke" width={500} height={800} className="w-full mb-4 rounded-2xl" />
-                  <div className="p-4">
+                <div className="flex-1 md:w-1/5 bg-white rounded-3xl relative">
+                  <Image src="/images/petugas_lab.jpg" alt="Pemeriksaan MCU Lab Radiologi Merauke" width={500} height={800} className="w-full h-full object-cover rounded-3xl" />
+                  <div className="p-4 absolute bottom-0 left-0 w-full bg-white/70 backdrop-blur-md rounded-b-3xl">
                     <h2 className="text-gray-700 text-xl font-bold mb-2">MCU</h2>
                     <p className="text-gray-400 text-sm">Lab + Rad</p>
                   </div>
