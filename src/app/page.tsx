@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   const currentYear = new Date().getFullYear();
   return (
-    <main className="min-h-screen max-w-7xl mx-auto bg-gray-50 rounded-3xl m-2">
+    <main className="min-h-screen max-w-7xl mx-auto bg-gray-50 rounded-3xl m-2 font-avenir">
       <Navbar />
       <Landing />
       <section className="py-16">
@@ -26,9 +26,9 @@ export default function Home() {
 
       <footer className="bg-sky-50 py-8">
         <div className="container mx-auto text-center text-gray-600 flex flex-col items-center">
-          <p>&copy; RSBP 2001 - {currentYear}. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">&copy; RSBP 2001 - {currentYear}. All rights reserved.</p>
           <a href="https://arwildo.com" target="_blank" rel="noopener dofollow">
-            <Image src="/images/arwildo-software-cr.svg" alt="Arwildo Software" width={90} height={90} className="mt-2"/>
+            <Image src="/images/arwildo-software-cr.svg" alt="Arwildo Software" width={90} height={90} className="mt-4"/>
           </a>
         </div>
       </footer>
