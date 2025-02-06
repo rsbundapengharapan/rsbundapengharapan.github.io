@@ -17,9 +17,9 @@ interface NavButtonProps {
 }
 
 const NavButton: React.FC<NavButtonProps> = ({ href, children, isActive }) => (
-  <Link href={href} className={`flex items-center ${isActive ? 'text-white' : 'text-sky-800'} hover:text-white`}>
+  <Link href={href} className={`flex items-center ${isActive ? 'text-white' : 'text-gray-800'} hover:text-white`}>
     <div 
-      className={`rounded-full p-3 ${isActive ? 'bg-blue-500' : 'bg-white'} transition-all duration-300`}
+      className={`rounded-full p-3  ${isActive ? 'bg-blue-400' : 'bg-white'} transition-all duration-300 hover:bg-blue-400`}
     >
       {children}
     </div>
