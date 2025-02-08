@@ -17,7 +17,7 @@ export default function Landing() {
               style={{ backgroundImage: "url('/images/direktur.webp')"}}
             >
               <button className="mt-28 relative bg-amber-900/20 hover:bg-amber-900/50 backdrop-blur-md p-8 shadow-lg text-white rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                Jadwal Dokter <span className="ml-2">&#8594;</span>
+                Tentang RSBP <span className="ml-2">&#8594;</span>
               </button>
             </div>
 
@@ -25,12 +25,21 @@ export default function Landing() {
             <div className="flex flex-col md:flex-row gap-2">
               {/* Left Box (60% width) */}
               <div className="flex flex-col md:flex-row gap-2">
+                
 
-                <div className="flex-1 md:w-4/5 p-6 rounded-3xl inset-0 bg-gradient-to-br from-blue-500 to-teal-200 relative">
-                  <Image src="/images/call.png" alt="Hubungi administrasi" width={500} height={300} className="w-full mb-4" />
-                  <div className="p-0">
-                    <h2 className="text-white text-xl font-bold mb-2">Hubungi</h2>
-                    <p className="text-white text-sm">Mendaftar</p>
+                <div className="flex-1 md:w-4/5 bg-white rounded-3xl relative flex flex-col">
+                  <div className="h-[80%] overflow-hidden rounded-3xl bg-cusblue">
+                    <Image
+                      src="/images/call.png"
+                      alt="Pemeriksaan MCU Radiologi dan Lab"
+                      width={100}
+                      height={100}
+                      className="w-full h-full object-cover p-6"
+                    />
+                  </div>
+                  <div className="px-4 py-6 flex-1">
+                    <h2 className="text-gray-900 text-md font-extrabold mb-2">Hubungi</h2>
+                    <p className="text-gray-500 text-sm">Admisi</p>
                   </div>
                 </div>
 

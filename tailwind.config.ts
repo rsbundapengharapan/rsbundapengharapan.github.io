@@ -16,6 +16,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "cusgray": "#3E4E4E4",
+        "cuswhite": "#F7F6F9",
+        "cusblue": "#2B65AE",
+        "cuscyan": "#72C1C6",
+        "cusblack": "#010101"
+      }
     },
   },
   plugins: [],

@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Home() {
   const currentYear = new Date().getFullYear();
   return (
-    <main className="min-h-screen max-w-7xl mx-auto bg-gray-50 rounded-3xl m-2 font-avenir">
+    <main className="min-h-screen max-w-7xl mx-auto bg-cuswhite rounded-3xl m-2 font-avenir">
       <Navbar />
       <Landing />
       <Info/>
