@@ -1,6 +1,5 @@
 import { FC } from 'react';
-import { HiBeaker } from 'react-icons/hi';
-import { FaAmbulance, FaXRay } from 'react-icons/fa';
+import { PiTestTube, PiAmbulance, PiAtomLight} from 'react-icons/pi';
 
 interface StatusCardProps {
     type: 'igd' | 'lab' | 'rad';
@@ -13,11 +12,11 @@ const StatusCard: FC<StatusCardProps> = ({ type, title, subtitle, time }) => {
     const renderIcon = () => {
         switch (type) {
             case 'igd':
-                return <FaAmbulance className="w-6 h-6 text-white" />;
+                return <PiAmbulance className="w-6 h-6 text-white" />;
             case 'lab':
-                return <HiBeaker className="w-6 h-6 text-white" />;
+                return <PiTestTube className="w-6 h-6 text-white" />;
             case 'rad':
-                return <FaXRay className="w-6 h-6 text-white" />;
+                return <PiAtomLight className="w-6 h-6 text-white" />;
             default:
                 return null;
         }
