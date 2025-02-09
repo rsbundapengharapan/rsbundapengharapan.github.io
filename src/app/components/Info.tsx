@@ -22,9 +22,8 @@ export default function Info() {
                             <p className="text-gray-500 text-sm">{currentDate}</p>
                             <ul className="mt-4">
                                 {doctorSchedules.map((schedule: DoctorSchedule, index: number) => {
-                                    const backgroundColorWithOpacity = `${schedule.color}90`;
                                     return (
-                                        <li key={index} className="text-gray-00 text-sm mb-2 p-2 rounded-2xl" style={{ backgroundColor: backgroundColorWithOpacity }}>
+                                        <li key={index} className="text-white text-sm mb-2 p-2 rounded-2xl bg-cusblue/80 hover:bg-cusblue/100 trasnition-colors duration-300">
                                             <span className="font-bold">{schedule.poli}</span>: {schedule.time}
                                         </li>
                                     );
