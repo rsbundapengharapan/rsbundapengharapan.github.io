@@ -25,7 +25,6 @@ export default function Landing() {
             <div className="flex flex-col md:flex-row gap-2">
               {/* Left Box (60% width) */}
               <div className="flex flex-col md:flex-row gap-2">
-                
 
                 <div className="flex-1 md:w-4/5 bg-white rounded-3xl relative flex flex-col">
                   <div className="h-[80%] overflow-hidden rounded-3xl bg-cusblue">

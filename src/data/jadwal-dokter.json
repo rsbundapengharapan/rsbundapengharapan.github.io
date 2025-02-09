@@ -1,0 +1,17 @@
+[
+  {
+    "poli": "Penyakit Dalam",
+    "time": "08:00 - 12:00",
+    "color": "#4A90E2"
+  },
+  {
+    "poli": "Kandungan",
+    "time": "09:00 - 13:00",
+    "color": "#FF69B4"
+  },
+  {
+    "poli": "Anak",
+    "time": "10:00 - 14:00",
+    "color": "#FFA500"
+  }
+]
