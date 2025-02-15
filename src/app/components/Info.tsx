@@ -5,13 +5,26 @@ import { useEffect, useState } from 'react';
 import StatusCard from './StatusCard';
 
 interface DoctorSchedule {
-  poli: string;
-  time: string;
-  color: string;
+  is_holiday: boolean;
+  doctor_id: string;
+  doctor_name: string;
+  day: string;
+  start_time: string;
+  end_time: string;
+  clinic: string;
+  quota: number;
 }
 
 export default function Info() {
     const currentDate = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+    const currentDay = new Date().toLocaleDateString('id-ID', { weekday: 'long' }).toUpperCase();
+
+    const todaySchedules = doctorSchedules.filter((schedule: DoctorSchedule) => schedule.day === currentDay);
+
+    const formatTime = (time: string) => {
+        return time.slice(0, 5);
+    };
+
     return (
         <div className="flex sm:flex-row flex-col gap-2 p-4">
             <div className="w-full relative">
@@ -20,10 +33,18 @@ export default function Info() {
                         <h1 className="text-gray-900 text-lg font-bold mb-2">Jadwal Dokter</h1>
                         <p className="text-gray-500 text-sm">{currentDate}</p>
                         <ul className="mt-4">
-                            {doctorSchedules.map((schedule: DoctorSchedule, index: number) => {
+                            {todaySchedules.map((schedule: DoctorSchedule, index: number) => {
+                                const clinicName = schedule.clinic.replace("Poliklinik ", "");
                                 return (
-                                    <li key={index} className="text-white text-sm mb-2 p-2 rounded-2xl bg-cusblue/80 hover:bg-cusblue/100 trasnition-colors duration-300">
-                                        <span className="font-bold">{schedule.poli}</span>: {schedule.time}
+                                    <li key={index} className="text-white text-sm mb-2 p-2 rounded-2xl bg-cusblue/80 hover:bg-cusblue/100 trasnition-colors duration-300 flex justify-between items-center">
+                                        <div>
+                                            <span className="font-bold">{clinicName}</span>
+                                            <br />
+                                            <span>{schedule.doctor_name}</span>
+                                        </div>
+                                        <div>
+                                            {formatTime(schedule.start_time)} - {formatTime(schedule.end_time)}
+                                        </div>
                                     </li>
                                 );
                             })}

@@ -1,17 +1,92 @@
 [
   {
-    "poli": "Penyakit Dalam",
-    "time": "08:00 - 12:00",
-    "color": "#4A90E2"
+    "is_holiday": false,
+    "doctor_id": "dr.andris",
+    "doctor_name": "dr. Andris Senggetan, Sp.PD",
+    "day": "SENIN",
+    "start_time": "09:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
   },
   {
-    "poli": "Kandungan",
-    "time": "09:00 - 13:00",
-    "color": "#FF69B4"
+    "is_holiday": false,
+    "doctor_id": "dr.andris",
+    "doctor_name": "dr. Andris Senggetan, Sp.PD",
+    "day": "SELASA",
+    "start_time": "09:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
   },
   {
-    "poli": "Anak",
-    "time": "10:00 - 14:00",
-    "color": "#FFA500"
+    "is_holiday": false,
+    "doctor_id": "dr.andris",
+    "doctor_name": "dr. Andris Senggetan, Sp.PD",
+    "day": "RABU",
+    "start_time": "09:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.andris",
+    "doctor_name": "dr. Andris Senggetan, Sp.PD",
+    "day": "KAMIS",
+    "start_time": "08:00:00",
+    "end_time": "14:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 24.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.andris",
+    "doctor_name": "dr. Andris Senggetan, Sp.PD",
+    "day": "JUMAT",
+    "start_time": "08:00:00",
+    "end_time": "14:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 24.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.andris",
+    "doctor_name": "dr. Andris Senggetan, Sp.PD",
+    "day": "SABTU",
+    "start_time": "09:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.arthur",
+    "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
+    "day": "SELASA",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Kandungan",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.arthur",
+    "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
+    "day": "KAMIS",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Kandungan",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.arthur",
+    "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
+    "day": "SABTU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Kandungan",
+    "quota": 15.0
   }
 ]
