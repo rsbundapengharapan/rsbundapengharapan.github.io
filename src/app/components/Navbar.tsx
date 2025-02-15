@@ -16,15 +16,24 @@ interface NavButtonProps {
   isActive: boolean;
 }
 
-const NavButton: React.FC<NavButtonProps> = ({ href, children, isActive }) => (
-  <Link href={href} className={`flex items-center ${isActive ? 'text-white' : 'text-cusblack'} hover:text-white`}>
-    <div 
-      className={`rounded-full p-3  ${isActive ? 'bg-cusblue' : 'bg-white'} transition-all duration-300 hover:bg-cusblue`}
-    >
-      {children}
-    </div>
-  </Link>
-);
+const NavButton: React.FC<NavButtonProps> = ({ href, children, isActive }) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      document.getElementById(href.substring(1))?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <Link href={href} onClick={handleClick} className={`flex items-center ${isActive ? 'text-white' : 'text-cusblack'} hover:text-white`}>
+      <div 
+        className={`rounded-full p-3  ${isActive ? 'bg-cusblue' : 'bg-white'} transition-all duration-300 hover:bg-cusblue`}
+      >
+        {children}
+      </div>
+    </Link>
+  );
+};
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -53,7 +62,7 @@ export default function Navbar() {
           <NavButton href="#jadwal" isActive={isActive('#jadwal')}>
             <HiOutlineCalendar className="h-6 w-6" />
           </NavButton>
-          <NavButton href="#kontak" isActive={isActive('#kontak')}>
+          <NavButton href="#call-section" isActive={isActive('#call-section')}>
             <HiMiniPhone className="h-6 w-6" />
           </NavButton>
           <NavButton href="#info" isActive={isActive('#info')}>

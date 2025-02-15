@@ -13,8 +13,8 @@ interface DoctorSchedule {
 export default function Info() {
     const currentDate = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
     return (
-        <div className="flex sm:flex-row flex-col gap-2 px-2">
-            <div className="w-full relative p-2">
+        <div className="flex sm:flex-row flex-col gap-2 p-4">
+            <div className="w-full relative">
                 <div className="bg-white w-full p-2 rounded-3xl">
                     <div className="px-4 py-6 flex-1">
                         <h1 className="text-gray-900 text-lg font-bold mb-2">Jadwal Dokter</h1>
@@ -34,7 +34,7 @@ export default function Info() {
                     </button>
                 </div>
             </div>
-            <div className="w-full relative p-2">
+            <div className="w-full relative">
                 <div className="bg-white w-full p-2 rounded-3xl">
                     <div className="px-4 py-6 flex-1">
                         <h1 className="text-gray-900 text-lg font-bold mb-2">Layanan</h1>
