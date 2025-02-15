@@ -13,7 +13,7 @@ const StatusCard: FC<StatusCardProps> = ({ type, title, subtitle, time }) => {
         switch (type) {
             case 'igd':
                 return <PiAmbulance className="w-6 h-6 text-white" />;
-            case 'lab':
+        case 'lab':
                 return <PiTestTube className="w-6 h-6 text-white" />;
             case 'rad':
                 return <PiAtomLight className="w-6 h-6 text-white" />;
