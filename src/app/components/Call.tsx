@@ -3,7 +3,7 @@ import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 
 export default function Call() {
     return (
-        <div id="call-section" className="flex flex-col md:flex-row items-center p-4 bg-white rounded-3xl mt-4">
+        <div id="call-section" className="flex flex-col sm:flex-row items-center p-4 bg-white rounded-3xl mt-4">
             <div className="w-full md:w-1/2 p-8 lg:p-28">
                 <h1 className="text-2xl font-bold text-gray-900">Hubungi Kami</h1>
                 <p className="text-gray-500 mt-2">Untuk informasi lebih lanjut, silakan hubungi kami</p>

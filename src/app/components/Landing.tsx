@@ -1,10 +1,6 @@
 import Image from "next/image";
 
 export default function Landing() {
-    const scrollToCallSection = () => {
-        document.getElementById('call-section')?.scrollIntoView({ behavior: 'smooth' });
-    };
-
     return(
       <div className="flex flex-col md:flex-row h-auto md:h-[50vh]">
         {/* Object section */}
@@ -32,17 +28,14 @@ export default function Landing() {
               {/* Bottom Two Boxes */}
               <div className="flex flex-row gap-2">
                 {/* Left Box (60% width) */}
-                <div 
-                  className="flex-1 bg-white rounded-3xl relative flex flex-col hover:scale-105 transition-transform duration-300 cursor-pointer"
-                  onClick={scrollToCallSection}
-                >
+                <div className="flex-1 bg-white rounded-3xl relative flex flex-col">
                   <div className="h-[80%] overflow-hidden rounded-3xl bg-cusblue">
                     <Image
                       src="/images/call.png"
                       alt="Pemeriksaan MCU Radiologi dan Lab"
                       width={100}
                       height={100}
-                      className="w-full h-full object-cover p-6 max-h-48 max-w-48 mx-auto"
+                      className="w-full h-full object-cover p-6"
                     />
                   </div>
                   <div className="px-4 py-6 flex-1">
@@ -58,7 +51,7 @@ export default function Landing() {
                       alt="Pemeriksaan MCU Radiologi dan Lab"
                       width={500}
                       height={300}
-                      className="w-full h-full object-cover max-h-48"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="px-4 py-6 flex-1">
