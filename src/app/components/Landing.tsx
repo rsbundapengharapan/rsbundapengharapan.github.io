@@ -1,6 +1,13 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Landing() {
+    const router = useRouter();
+
+    const navigateToAbout = () => {
+        router.push('/about');
+    };
+
     return(
       <div className="flex flex-col md:flex-row h-auto md:h-[50vh]">
         {/* Object section */}
@@ -18,7 +25,7 @@ export default function Landing() {
                 className="bg-cover bg-center p-6 rounded-3xl mb-2 relative h-48"
                 style={{ backgroundImage: "url('/images/direktur.webp')"}}
               >
-                <button className="mt-28 relative bg-amber-900/20 hover:bg-amber-900/50 backdrop-blur-md p-8 shadow-lg text-white rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                <button onClick={navigateToAbout} className="mt-28 relative bg-amber-900/20 hover:bg-amber-900/50 backdrop-blur-md p-8 shadow-lg text-white rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
                   <span className="hidden sm:inline">Tentang RSBP</span>
                   <span className="sm:hidden">Tentang</span>
                   <span className="ml-2">&#8594;</span>

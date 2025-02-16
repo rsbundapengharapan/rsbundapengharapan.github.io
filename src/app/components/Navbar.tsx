@@ -83,7 +83,7 @@ export default function Navbar() {
           <NavButton href="#call-section" isActive={isActive('#call-section')}>
             <HiMiniPhone className="h-6 w-6" />
           </NavButton>
-          <NavButton href="#info" isActive={isActive('#info')}>
+          <NavButton href="/about" isActive={isActive('/about')}>
             <HiOutlineBuildingOffice2 className="h-6 w-6" />
           </NavButton>
         </div>
