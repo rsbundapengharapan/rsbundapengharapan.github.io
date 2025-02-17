@@ -38,7 +38,7 @@ export default function Landing() {
                 <div className="flex-1 bg-white rounded-3xl relative flex flex-col">
                   <div className="h-[80%] overflow-hidden rounded-3xl bg-cusblue">
                     <Image
-                      src="/images/call.png"
+                      src="/images/call.webp"
                       alt="Pemeriksaan MCU Radiologi dan Lab"
                       width={100}
                       height={100}
