@@ -45,12 +45,12 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center mb-8">
           <div className="md:w-1/2 p-4">
             <p className="text-gray-700 text-lg">
-              Kami juga menyediakan layanan konsultasi kesehatan secara online untuk memudahkan Anda dalam mendapatkan informasi dan saran medis tanpa harus datang langsung ke rumah sakit.
+              Rumah Sakit Bunda Pengharapan - "Kasih yang Menyembuhkan".
             </p>
           </div>
           <div className="md:w-1/2 p-4">
             <Image
-              src="/images/pelayanan-2.webp"
+              src="/images/pelayanan-2.webp?v1"
               alt="Hospital"
               width={500}
               height={300}
