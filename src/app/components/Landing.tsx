@@ -18,7 +18,7 @@ export default function Landing() {
     };
 
     return(
-      <div className="flex flex-col md:flex-row h-auto md:h-[50vh]">
+      <div className="flex flex-col sm:flex-row h-auto md:h-[50vh]">
         {/* Object section */}
         {isLoading ? (
           <div className="w-full md:w-[60%] py-48 bg-gray-200 animate-pulse"></div>
@@ -31,7 +31,7 @@ export default function Landing() {
         )}
 
         {/* Shortcut section */}
-        <div className="w-full md:w-[40%] p-4">
+        <div className="w-auto sm:max-w-md p-4">
             <div className="container mx-auto">
               {isLoading ? (
                 <div className="animate-pulse">

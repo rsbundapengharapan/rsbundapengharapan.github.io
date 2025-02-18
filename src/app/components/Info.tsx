@@ -33,7 +33,7 @@ export default function Info() {
     };
 
     return (
-        <div className="flex sm:flex-row flex-col gap-2 p-4">
+        <div className="flex sm:flex-row flex-col gap-2 p-4 sm:pt-8">
             <div className="w-full relative">
                 <div className="bg-white w-full p-2 rounded-3xl">
                     <div className="px-4 py-6 flex-1">
