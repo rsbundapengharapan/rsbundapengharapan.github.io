@@ -69,6 +69,24 @@ export default function Navbar() {
     return time.slice(0, 5);
   };
 
+  const handleClickOutside = (event: MouseEvent) => {
+    const popup = document.querySelector('.popup');
+    if (popup && !popup.contains(event.target as Node)) {
+      setIsPopupOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isPopupOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isPopupOpen]);
+
   return (
     <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -90,7 +108,7 @@ export default function Navbar() {
       </div>
       {isPopupOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 transition-opacity duration-300 ease-in-out">
-          <div className="bg-white p-8 rounded-3xl w-full max-w-4xl transform transition-transform duration-300 ease-in-out scale-95 opacity-0 animate-popup">
+          <div className="bg-white p-8 rounded-3xl w-full max-w-4xl transform transition-transform duration-300 ease-in-out scale-95 opacity-0 animate-popup popup">
             <button onClick={togglePopup} className="absolute top-4 right-4 bg-gray-900 text-white rounded-full p-2 transition-transform transform hover:scale-110">
               <HiPlus className="w-4 rotate-45"/>
             </button>
