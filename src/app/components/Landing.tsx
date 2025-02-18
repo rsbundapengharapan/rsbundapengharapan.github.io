@@ -18,7 +18,7 @@ export default function Landing() {
     };
 
     return(
-      <div className="flex flex-col sm:flex-row h-auto md:h-[50vh]">
+      <div className="flex flex-col sm:flex-row h-auto">
         {/* Object section */}
         {isLoading ? (
           <div className="w-full md:w-[60%] py-48 bg-gray-200 animate-pulse"></div>
@@ -31,9 +31,9 @@ export default function Landing() {
         )}
 
         {/* Shortcut section */}
-        <div className="w-auto sm:max-w-md p-4">
+        <div className="w-full sm:w-2/4 sm:max-w-lg p-4">
             <div className="container mx-auto">
-              {isLoading ? (
+              { isLoading ? (
                 <div className="animate-pulse">
                   <div className="bg-gray-200 h-48 rounded-3xl mb-2"></div>
                   <div className="flex flex-row gap-2">
@@ -45,10 +45,10 @@ export default function Landing() {
                 <>
                   {/* Top Full Width Box */}
                   <div
-                    className="bg-cover bg-center p-6 rounded-3xl mb-2 relative h-48"
+                    className="bg-cover bg-center p-6 rounded-3xl mb-2 relative min-h-80"
                     style={{ backgroundImage: "url('/images/direktur.webp')"}}
                   >
-                    <button onClick={navigateToAbout} className="mt-28 relative bg-amber-900/20 hover:bg-amber-900/50 backdrop-blur-md p-8 shadow-lg text-white rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                    <button onClick={navigateToAbout} className="absolute bottom-4 left-4 bg-amber-900/20 hover:bg-amber-900/50 backdrop-blur-md p-8 shadow-lg text-white rounded-full text-sm px-5 py-2.5 text-center">
                       <span className="hidden sm:inline">Tentang RSBP</span>
                       <span className="sm:hidden">Tentang</span>
                       <span className="ml-2">&#8594;</span>
