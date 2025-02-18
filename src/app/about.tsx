@@ -18,7 +18,7 @@ export default function About() {
           </div>
           <div className="md:w-1/2 p-4">
             <Image
-              src="/images/hospital-1.webp"
+              src="/images/du.webp"
               alt="Hospital"
               width={500}
               height={300}
@@ -29,7 +29,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center mb-8">
           <div className="md:w-1/2 p-4 order-2 md:order-1">
             <Image
-              src="/images/hospital-2.webp"
+              src="/images/pelayanan-1.webp"
               alt="Hospital"
               width={500}
               height={300}
@@ -50,7 +50,7 @@ export default function About() {
           </div>
           <div className="md:w-1/2 p-4">
             <Image
-              src="/images/hospital-3.webp"
+              src="/images/pelayanan-2.webp"
               alt="Hospital"
               width={500}
               height={300}

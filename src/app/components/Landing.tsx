@@ -21,7 +21,7 @@ export default function Landing() {
       <div className="flex flex-col sm:flex-row h-auto">
         {/* Object section */}
         {isLoading ? (
-          <div className="w-full md:w-[60%] py-48 bg-gray-200 animate-pulse"></div>
+          <div className="w-full md:w-[60%] py-48 bg-gray-200 animate-pulse rounded-3xl"></div>
         ) : (
           <div 
             className="w-full md:w-[60%] py-48 bg-cover bg-center relative"
