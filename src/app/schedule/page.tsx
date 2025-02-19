@@ -52,15 +52,15 @@ export default function Schedule() {
     <div className="min-h-screen max-w-7xl mx-auto bg-cuswhite rounded-3xl m-2 font-avenir">
       <Navbar/>
       <div className="p-4">
-        <div className="container mx-auto">
-          <h2 className="text-gray-900 text-lg font-bold mb-4">Jadwal Dokter</h2>
+        <div className="container mx-auto p-8">
+          <h1 className="text-gray-900 text-xl font-bold mb-4">Jadwal Dokter</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {daysOfWeek.map((day) => (
               <div key={day} className="bg-gray-100 p-4 rounded-2xl">
                 <h3 className="text-gray-900 font-bold mb-2">{day}</h3>
                 <ul>
                   {doctorSchedules.filter((schedule: DoctorSchedule) => schedule.day === day).map((schedule, index) => (
-                    <li key={index} className="text-gray-700 text-sm mb-2">
+                    <li key={index} className="text-gray-800 text-sm mb-2">
                       <span className="font-bold">{schedule.clinic.replace("Poliklinik ", "")}</span>
                       <br />
                       <span>{schedule.doctor_name}</span>

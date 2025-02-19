@@ -31,7 +31,7 @@ const NavButton: React.FC<NavButtonProps> = ({ href, children, isActive, onClick
   return (
     <Link href={href} onClick={handleClick} className={`flex items-center ${isActive ? 'text-white' : 'text-cusblack'} hover:text-white`}>
       <div 
-        className={`rounded-full p-3  ${isActive ? 'bg-cusblue' : 'bg-white'} transition-all duration-300 hover:bg-cusblue`}
+        className={`rounded-full p-3 ${isActive ? 'bg-cusblue' : 'bg-white'} transition-all duration-500 ease-in-out hover:bg-cusblue`}
       >
         {children}
       </div>
@@ -52,7 +52,7 @@ export default function Navbar() {
 
   const isActive = (hash: string) => {
     if (hash === '') return pathname === '/' && !activeHash;
-    return activeHash === hash;
+    return activeHash === hash || pathname === hash;
   };
 
   return (
