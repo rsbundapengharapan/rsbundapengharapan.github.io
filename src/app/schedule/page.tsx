@@ -61,11 +61,15 @@ export default function Schedule() {
                 <ul>
                   {doctorSchedules.filter((schedule: DoctorSchedule) => schedule.day === day).map((schedule, index) => (
                     <li key={index} className="text-gray-800 text-sm mb-2">
-                      <span className="font-bold">{schedule.clinic.replace("Poliklinik ", "")}</span>
+                      <span className="font-bold">{schedule.clinic.replace("Poliklinik ", "Poli ")}</span>
                       <br />
                       <span>{schedule.doctor_name}</span>
                       <br />
-                      {formatTime(schedule.start_time)} - {formatTime(schedule.end_time)}
+                      <span className="bg-gray-200 rounded-lg">
+                        {formatTime(schedule.start_time)} - {formatTime(schedule.end_time)}
+                      </span>
+                      <br />
+                      <br />
                     </li>
                   ))}
                 </ul>

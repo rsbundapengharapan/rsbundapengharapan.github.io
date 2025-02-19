@@ -88,5 +88,515 @@
     "end_time": "17:00:00",
     "clinic": "Poliklinik Kandungan",
     "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.billy",
+    "doctor_name": "dr. Billy Jeffkien Abrianus Ohee, Sp.B",
+    "day": "SENIN",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.billy",
+    "doctor_name": "dr. Billy Jeffkien Abrianus Ohee, Sp.B",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.billy",
+    "doctor_name": "dr. Billy Jeffkien Abrianus Ohee, Sp.B",
+    "day": "KAMIS",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 13.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.billy",
+    "doctor_name": "dr. Billy Jeffkien Abrianus Ohee, Sp.B",
+    "day": "JUMAT",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.denal",
+    "doctor_name": "dr. Denal Bato Tampak, M.Kes., Sp.OT(K)",
+    "day": "SENIN",
+    "start_time": "14:30:00",
+    "end_time": "16:30:00",
+    "clinic": "Poliklinik Ortopedi",
+    "quota": 17.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.denal",
+    "doctor_name": "dr. Denal Bato Tampak, M.Kes., Sp.OT(K)",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "16:30:00",
+    "clinic": "Poliklinik Ortopedi",
+    "quota": 17.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.denal",
+    "doctor_name": "dr. Denal Bato Tampak, M.Kes., Sp.OT(K)",
+    "day": "JUMAT",
+    "start_time": "14:30:00",
+    "end_time": "16:30:00",
+    "clinic": "Poliklinik Ortopedi",
+    "quota": 17.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.elisabeth",
+    "doctor_name": "dr. Elisabeth Romana Tikalaka, Sp.N",
+    "day": "SELASA",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Saraf",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.elisabeth",
+    "doctor_name": "dr. Elisabeth Romana Tikalaka, Sp.N",
+    "day": "KAMIS",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Saraf",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.elisabeth",
+    "doctor_name": "dr. Elisabeth Romana Tikalaka, Sp.N",
+    "day": "SABTU",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Saraf",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hans",
+    "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
+    "day": "SENIN",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Anak",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hans",
+    "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
+    "day": "SELASA",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Anak",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hans",
+    "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Anak",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hans",
+    "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
+    "day": "KAMIS",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Anak",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hans",
+    "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
+    "day": "JUMAT",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Anak",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hans",
+    "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
+    "day": "SABTU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Anak",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.haryati",
+    "doctor_name": "dr. Haryati Wijaya, Sp. OG",
+    "day": "SENIN",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Kandungan",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.haryati",
+    "doctor_name": "dr. Haryati Wijaya, Sp. OG",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Kandungan",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.haryati",
+    "doctor_name": "dr. Haryati Wijaya, Sp. OG",
+    "day": "JUMAT",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Kandungan",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hendra",
+    "doctor_name": "dr. Hendra Sihombing, Sp. P",
+    "day": "SENIN",
+    "start_time": "16:30:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Paru",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hendra",
+    "doctor_name": "dr. Hendra Sihombing, Sp. P",
+    "day": "SELASA",
+    "start_time": "16:30:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Paru",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hendra",
+    "doctor_name": "dr. Hendra Sihombing, Sp. P",
+    "day": "RABU",
+    "start_time": "16:30:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Paru",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hendra",
+    "doctor_name": "dr. Hendra Sihombing, Sp. P",
+    "day": "KAMIS",
+    "start_time": "16:30:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Paru",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hendra",
+    "doctor_name": "dr. Hendra Sihombing, Sp. P",
+    "day": "JUMAT",
+    "start_time": "16:30:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Paru",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.hendra",
+    "doctor_name": "dr. Hendra Sihombing, Sp. P",
+    "day": "SABTU",
+    "start_time": "16:30:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Paru",
+    "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.ivani",
+    "doctor_name": "dr. Ivani Yunita Korwa, Sp. B",
+    "day": "SENIN",
+    "start_time": "08:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 20.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.ivani",
+    "doctor_name": "dr. Ivani Yunita Korwa, Sp. B",
+    "day": "SELASA",
+    "start_time": "08:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 20.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.ivani",
+    "doctor_name": "dr. Ivani Yunita Korwa, Sp. B",
+    "day": "RABU",
+    "start_time": "08:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 20.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.ivani",
+    "doctor_name": "dr. Ivani Yunita Korwa, Sp. B",
+    "day": "KAMIS",
+    "start_time": "08:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 20.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.ivani",
+    "doctor_name": "dr. Ivani Yunita Korwa, Sp. B",
+    "day": "JUMAT",
+    "start_time": "08:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 20.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.ivani",
+    "doctor_name": "dr. Ivani Yunita Korwa, Sp. B",
+    "day": "SABTU",
+    "start_time": "08:00:00",
+    "end_time": "13:00:00",
+    "clinic": "Poliklinik Bedah",
+    "quota": 20.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.jeanne",
+    "doctor_name": "dr. Junita Jeanne Paliman, Sp. K.F.R",
+    "day": "SENIN",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Rehabilitasi Medis",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.jeanne",
+    "doctor_name": "dr. Junita Jeanne Paliman, Sp. K.F.R",
+    "day": "SELASA",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Rehabilitasi Medis",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.jeanne",
+    "doctor_name": "dr. Junita Jeanne Paliman, Sp. K.F.R",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Rehabilitasi Medis",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.jeanne",
+    "doctor_name": "dr. Junita Jeanne Paliman, Sp. K.F.R",
+    "day": "KAMIS",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Rehabilitasi Medis",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.jeanne",
+    "doctor_name": "dr. Junita Jeanne Paliman, Sp. K.F.R",
+    "day": "JUMAT",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Rehabilitasi Medis",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.jeanne",
+    "doctor_name": "dr. Junita Jeanne Paliman, Sp. K.F.R",
+    "day": "SABTU",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Rehabilitasi Medis",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "SENIN",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "SELASA",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "RABU",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "KAMIS",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "JUMAT",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "SABTU",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.livia",
+    "doctor_name": "dr. Livia, Sp. M.",
+    "day": "AKHAD",
+    "start_time": "08:00:00",
+    "end_time": "15:00:00",
+    "clinic": "Poliklinik Mata",
+    "quota": 42.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.maya",
+    "doctor_name": "dr. Eka Maya Sofa Irwati, Sp.PD",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.maya",
+    "doctor_name": "dr. Eka Maya Sofa Irwati, Sp.PD",
+    "day": "KAMIS",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.maya",
+    "doctor_name": "dr. Eka Maya Sofa Irwati, Sp.PD",
+    "day": "JUMAT",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.maya",
+    "doctor_name": "dr. Eka Maya Sofa Irwati, Sp.PD",
+    "day": "SABTU",
+    "start_time": "14:30:00",
+    "end_time": "17:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 10.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.uminah",
+    "doctor_name": "dr. Uminah, Sp. KJ",
+    "day": "SENIN",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Jiwa",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.uminah",
+    "doctor_name": "dr. Uminah, Sp. KJ",
+    "day": "SELASA",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Jiwa",
+    "quota": 9.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.uminah",
+    "doctor_name": "dr. Uminah, Sp. KJ",
+    "day": "RABU",
+    "start_time": "14:30:00",
+    "end_time": "16:00:00",
+    "clinic": "Poliklinik Jiwa",
+    "quota": 9.0
   }
 ]

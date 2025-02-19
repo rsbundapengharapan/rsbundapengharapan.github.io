@@ -49,7 +49,7 @@ export default function Info() {
                                     return (
                                         <li key={index} className={`text-white text-sm mb-2 p-2 rounded-2xl ${isInTimeRange ? 'bg-cusblue' : 'bg-cusblue/80'} hover:bg-cusblue/100 transition-colors duration-300 flex justify-between items-center`}>
                                             <div>
-                                                <span className="font-bold">{clinicName}</span>
+                                                <span className="font-bold">Poli {clinicName}</span>
                                                 <br />
                                                 <span>{schedule.doctor_name}</span>
                                             </div>
