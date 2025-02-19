@@ -18,6 +18,7 @@ export default function Info() {
     const router = useRouter();
     const currentDate = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
     const currentDay = new Date().toLocaleDateString('id-ID', { weekday: 'long' }).toUpperCase();
+    const currentTime = new Date().toTimeString().slice(0, 5);
 
     const todaySchedules = doctorSchedules.filter((schedule: DoctorSchedule) => schedule.day === currentDay);
 
@@ -27,6 +28,10 @@ export default function Info() {
 
     const navigateToSchedule = () => {
         router.push('/schedule');
+    };
+
+    const isCurrentTimeInRange = (startTime: string, endTime: string) => {
+        return currentTime >= startTime && currentTime <= endTime;
     };
 
     return (
@@ -40,8 +45,9 @@ export default function Info() {
                             {todaySchedules.length > 0 ? (
                                 todaySchedules.map((schedule: DoctorSchedule, index: number) => {
                                     const clinicName = schedule.clinic.replace("Poliklinik ", "");
+                                    const isInTimeRange = isCurrentTimeInRange(schedule.start_time, schedule.end_time);
                                     return (
-                                        <li key={index} className="text-white text-sm mb-2 p-2 rounded-2xl bg-cusblue/80 hover:bg-cusblue/100 trasnition-colors duration-300 flex justify-between items-center">
+                                        <li key={index} className={`text-white text-sm mb-2 p-2 rounded-2xl ${isInTimeRange ? 'bg-cusblue' : 'bg-cusblue/80'} hover:bg-cusblue/100 transition-colors duration-300 flex justify-between items-center`}>
                                             <div>
                                                 <span className="font-bold">{clinicName}</span>
                                                 <br />
