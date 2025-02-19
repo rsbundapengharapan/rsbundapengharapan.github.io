@@ -90,7 +90,9 @@ export default function Navbar() {
   return (
     <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Image src="/logo.png" alt="Bunda Pengharapan Logo" width={50} height={50} />
+        <Link href="/">
+          <Image src="/logo.png" alt="Bunda Pengharapan Logo" width={50} height={50} />
+        </Link>
         <div className="flex space-x-4">
           <NavButton href="/" isActive={isActive('')}>
             <HiOutlineHome className="h-6 w-6" />

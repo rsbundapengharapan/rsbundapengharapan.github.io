@@ -45,7 +45,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center mb-8">
           <div className="md:w-1/2 p-4">
             <p className="text-gray-700 text-lg">
-              RS Bunda Pengharapan - "Kasih yang menyembuhkan".
+              RS Bunda Pengharapan - Kasih yang Menyembuhkan
             </p>
           </div>
           <div className="md:w-1/2 p-4">
