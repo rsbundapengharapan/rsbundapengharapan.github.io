@@ -10,13 +10,7 @@ export default function About() {
     <main className="min-h-screen max-w-7xl mx-auto bg-cuswhite rounded-3xl m-2 font-avenir">
       <Navbar />
       <div className="p-4">
-        <div className="flex flex-col md:flex-row items-center mb-8">
-          <div className="md:w-1/2 p-4">
-            <p className="text-gray-700 text-lg">
-              Rumah Sakit Bunda Pengharapan adalah rumah sakit yang berkomitmen untuk memberikan pelayanan kesehatan terbaik bagi masyarakat. Kami memiliki berbagai fasilitas dan layanan medis yang lengkap untuk memenuhi kebutuhan kesehatan Anda.
-            </p>
-          </div>
-          <div className="md:w-1/2 p-4">
+          <div className="p-4 md:w-3/4 mx-auto">
             <Image
               src="/images/du.webp"
               alt="Hospital"
@@ -25,11 +19,17 @@ export default function About() {
               className="w-full h-full object-cover rounded-3xl"
             />
           </div>
+        <div className="flex flex-col md:flex-row items-center mb-8">
+          <div className="p-4">
+            <p className="text-gray-700 text-lg">
+              Rumah Sakit Bunda Pengharapan adalah rumah sakit yang berkomitmen untuk memberikan pelayanan kesehatan terbaik bagi masyarakat. Kami memiliki berbagai fasilitas dan layanan medis yang lengkap untuk memenuhi kebutuhan kesehatan Anda.
+            </p>
+          </div>
         </div>
         <div className="flex flex-col md:flex-row items-center mb-8">
           <div className="md:w-1/2 p-4 order-2 md:order-1">
             <Image
-              src="/images/pelayanan-1.webp"
+              src="/images/pelayanan-2.webp"
               alt="Hospital"
               width={500}
               height={300}
@@ -50,7 +50,7 @@ export default function About() {
           </div>
           <div className="md:w-1/2 p-4">
             <Image
-              src="/images/pelayanan-2.webp"
+              src="/images/pelayanan-1.webp"
               alt="Hospital"
               width={500}
               height={300}
