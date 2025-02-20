@@ -58,19 +58,24 @@ export default function Landing() {
                   {/* Bottom Two Boxes */}
                   <div className="flex flex-row gap-2">
                     {/* Left Box (60% width) */}
-                    <div className="flex-1 bg-white rounded-3xl relative flex flex-col">
+                    <div 
+                      className="flex-1 bg-white rounded-3xl relative flex flex-col transform transition-transform hover:scale-105 cursor-pointer"
+                      onClick={() => {
+                      document.getElementById('call-section')?.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                    >
                       <div className="h-[80%] overflow-hidden rounded-3xl bg-cusblue">
-                        <Image
-                          src="/images/call.webp"
-                          alt="Pemeriksaan MCU Radiologi dan Lab"
-                          width={100}
-                          height={100}
-                          className="w-full h-full object-cover p-6"
-                        />
+                      <Image
+                        src="/images/call.webp"
+                        alt="Pemeriksaan MCU Radiologi dan Lab"
+                        width={100}
+                        height={100}
+                        className="w-full h-full object-cover p-6"
+                      />
                       </div>
                       <div className="px-4 py-6 flex-1">
-                        <h2 className="text-gray-900 text-md font-extrabold mb-2">Hubungi</h2>
-                        <p className="text-gray-500 text-sm">Admisi</p>
+                      <h2 className="text-gray-900 text-md font-extrabold mb-2">Hubungi</h2>
+                      <p className="text-gray-500 text-sm">Admisi</p>
                       </div>
                     </div>
 
