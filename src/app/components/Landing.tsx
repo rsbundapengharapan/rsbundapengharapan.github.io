@@ -9,7 +9,7 @@ export default function Landing() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 1000); // Simulate loading time
+        }, 1000);
         return () => clearTimeout(timer);
     }, []);
 
