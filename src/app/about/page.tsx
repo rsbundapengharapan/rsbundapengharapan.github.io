@@ -62,9 +62,17 @@ export default function About() {
         </div>
         <div className="flex flex-col md:flex-row items-center mb-8">
           <div className="md:w-1/2 p-4">
-            <p className="text-gray-700 text-lg">
-              RS Bunda Pengharapan - Kasih yang Menyembuhkan
-            </p>
+            <div className="text-gray-700 text-lg">
+              <p className="mb-2">
+                <b>Visi:</b> Menjadi rumah sakit pilihan utama bagi semua kalangan.
+              </p>
+              <p className="mb-2">
+                <b>Misi:</b> Memberikan pelayanan yang cepat, tepat, dan informatif dengan semangat cinta kasih.
+              </p>
+              <p>
+                <b>Motto:</b> “Kasih yang Menyembuhkan”.
+              </p>
+            </div>
           </div>
           <div className="md:w-1/2 p-4">
             {isLoading ? (
