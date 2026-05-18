@@ -63,16 +63,6 @@
     "is_holiday": false,
     "doctor_id": "dr.arthur",
     "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
-    "day": "SENIN",
-    "start_time": "14:30:00",
-    "end_time": "17:30:00",
-    "clinic": "Poliklinik Kandungan",
-    "quota": 18.0
-  },
-  {
-    "is_holiday": false,
-    "doctor_id": "dr.arthur",
-    "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
     "day": "SELASA",
     "start_time": "14:30:00",
     "end_time": "17:30:00",
@@ -83,27 +73,7 @@
     "is_holiday": false,
     "doctor_id": "dr.arthur",
     "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
-    "day": "RABU",
-    "start_time": "14:30:00",
-    "end_time": "17:30:00",
-    "clinic": "Poliklinik Kandungan",
-    "quota": 18.0
-  },
-  {
-    "is_holiday": false,
-    "doctor_id": "dr.arthur",
-    "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
     "day": "KAMIS",
-    "start_time": "14:30:00",
-    "end_time": "17:30:00",
-    "clinic": "Poliklinik Kandungan",
-    "quota": 18.0
-  },
-  {
-    "is_holiday": false,
-    "doctor_id": "dr.arthur",
-    "doctor_name": "dr. Arthur Todingbua, Sp.OG, M.Kes",
-    "day": "JUMAT",
     "start_time": "14:30:00",
     "end_time": "17:30:00",
     "clinic": "Poliklinik Kandungan",
@@ -265,7 +235,7 @@
     "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
     "day": "SENIN",
     "start_time": "14:30:00",
-    "end_time": "17:00:00",
+    "end_time": "16:00:00",
     "clinic": "Poliklinik Anak",
     "quota": 15.0
   },
@@ -275,7 +245,7 @@
     "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
     "day": "SELASA",
     "start_time": "14:30:00",
-    "end_time": "17:00:00",
+    "end_time": "16:00:00",
     "clinic": "Poliklinik Anak",
     "quota": 15.0
   },
@@ -285,7 +255,7 @@
     "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
     "day": "RABU",
     "start_time": "14:30:00",
-    "end_time": "17:00:00",
+    "end_time": "16:00:00",
     "clinic": "Poliklinik Anak",
     "quota": 15.0
   },
@@ -295,7 +265,7 @@
     "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
     "day": "KAMIS",
     "start_time": "14:30:00",
-    "end_time": "17:00:00",
+    "end_time": "16:00:00",
     "clinic": "Poliklinik Anak",
     "quota": 15.0
   },
@@ -305,7 +275,7 @@
     "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
     "day": "JUMAT",
     "start_time": "14:30:00",
-    "end_time": "17:00:00",
+    "end_time": "16:00:00",
     "clinic": "Poliklinik Anak",
     "quota": 15.0
   },
@@ -315,7 +285,7 @@
     "doctor_name": "dr. Hans Angelius Suharto, Sp. A",
     "day": "SABTU",
     "start_time": "14:30:00",
-    "end_time": "17:00:00",
+    "end_time": "16:00:00",
     "clinic": "Poliklinik Anak",
     "quota": 15.0
   },
@@ -648,5 +618,35 @@
     "end_time": "17:00:00",
     "clinic": "Poliklinik Jiwa",
     "quota": 15.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.zaid",
+    "doctor_name": "dr. Zaid Kadri, Sp.PD",
+    "day": "SELASA",
+    "start_time": "15:00:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.zaid",
+    "doctor_name": "dr. Zaid Kadri, Sp.PD",
+    "day": "KAMIS",
+    "start_time": "15:00:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
+  },
+  {
+    "is_holiday": false,
+    "doctor_id": "dr.zaid",
+    "doctor_name": "dr. Zaid Kadri, Sp.PD",
+    "day": "SABTU",
+    "start_time": "15:00:00",
+    "end_time": "19:00:00",
+    "clinic": "Poliklinik Penyakit Dalam",
+    "quota": 16.0
   }
 ]
