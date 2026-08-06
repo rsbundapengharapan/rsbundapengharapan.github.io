@@ -20,14 +20,15 @@ export default function Call() {
                     </a>
                 </div>
             </div>
-            <div className="w-full md:w-1/2 p-4">
+            <div className="w-full md:w-1/2 p-4 flex flex-col items-end pr-10">
                 <Image
-                    src="/images/hubungi-dokter.webp"
-                    alt="Call Center"
-                    width={200}
+                    src="/images/QR-survey-kepuasan-rsbp.png"
+                    alt="Leave a review"
+                    width={150}
                     height={150}
-                    className="w-72 object-cover rounded-3xl mx-auto"
+                    className="w-32 object-cover rounded-lg m-4"
                 />
+                <p className="text-gray-500 mt-2 text-sm text-right">Scan untuk mengisi kepuasan dan pengalaman anda di RSBP.</p>
             </div>
         </div>
     );
