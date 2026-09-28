@@ -44,7 +44,7 @@ export default function Location() {
                         </li>
                         <li className="flex items-start gap-2">
                             <FaMoon className="text-gray-900 h-4 w-4 mt-1 shrink-0" />
-                            <span><span className="font-semibold">Sesi Sore/Malam:</span> Pukul 17.30 – 20.00 WIT</span>
+                            <span><span className="font-semibold">Sesi Sore/Malam:</span> Pukul 17.00 – 21.00 WIT</span>
                         </li>
                     </ul>
                 </div>
