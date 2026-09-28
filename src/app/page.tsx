@@ -3,6 +3,7 @@
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import Info from "./components/Info";
+import Location from "./components/Location";
 import Call from "./components/Call";
 import Footer from "./components/Footer";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Info />
+      <Location />
       <Call />
       <Footer />
     </main>

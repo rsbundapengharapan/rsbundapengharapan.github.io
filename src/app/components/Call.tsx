@@ -1,13 +1,13 @@
 import Image from "next/image";
-import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube, FaPhone } from "react-icons/fa";
 
 export default function Call() {
     return (
         <div id="call-section" className="flex flex-col sm:flex-row items-center p-4 bg-white rounded-t-3xl mt-4">
             <div className="w-full md:w-1/2 p-8 lg:p-28">
                 <h1 className="text-2xl font-bold text-gray-900">Hubungi Kami</h1>
-                <p className="text-gray-500 mt-2">Untuk informasi lebih lanjut, silakan hubungi kami</p>
-                <p className="text-gray-900 mt-4 text-lg">+62 812 4039 5379</p>
+                <p className="text-gray-500 mt-2 flex items-center gap-2">Untuk informasi lebih lanjut, silakan hubungi kami</p>
+                <p className="text-gray-900 mt-4 text-lg flex items-center gap-2"><FaPhone className="text-gray-400" />0813-4301-1641</p>
                 <div className="flex space-x-4 mt-4 px-2">
                     <a href="https://www.facebook.com/rsbundapengharapan/" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className="text-gray-900 h-6 w-6" />
